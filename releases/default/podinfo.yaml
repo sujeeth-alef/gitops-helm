@@ -1,0 +1,17 @@
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: sujchinn-podinfo
+  namespace: default
+  annotations:
+    flux.weave.works/automated: "true"
+    flux.weave.works/tag.chart-image: glob:rc-*
+spec:
+  releaseName: podinfo-dev
+  chart:
+    git: git@github.com:sujeeth-alef/gitops-helm
+    path: charts/podinfo
+    ref: master
+  values:
+    image: suji961991/podinfo:dev
+    replicaCount: 1
