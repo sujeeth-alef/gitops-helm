@@ -10,7 +10,7 @@ metadata:
 spec:
   releaseName: podinfo-default
   chart:
-    git: git@github.com:sujeeth-alef/gitops-helm
+    git: git@github.com/sujeeth-alef/gitops-helm
     path: charts/podinfo
     ref: master
   values:
