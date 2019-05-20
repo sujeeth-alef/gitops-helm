@@ -6,7 +6,7 @@ metadata:
   namespace: default
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: glob:rc-*
+    flux.weave.works/tag.chart-image: glob:default-*
 spec:
   releaseName: podinfo-default
   chart:
