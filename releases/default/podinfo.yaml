@@ -8,7 +8,7 @@ metadata:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.chart-image: glob:rc-*
 spec:
-  releaseName: podinfo-dev
+  releaseName: podinfo-default
   chart:
     git: git@github.com:sujeeth-alef/gitops-helm
     path: charts/podinfo
