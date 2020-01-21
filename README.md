@@ -1,4 +1,4 @@
-# Managing Helm releases the GitOps way
+# Managing Helm releases the GitOps way RC
 
 [![Build Status](https://travis-ci.org/stefanprodan/gitops-helm.svg?branch=master)](https://travis-ci.org/stefanprodan/gitops-helm)
 
